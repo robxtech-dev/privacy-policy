@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librario — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1A1209;
+      color: #F5E6C8;
+      line-height: 1.7;
+      padding: 0;
+    }
+    header {
+      background: #231608;
+      border-bottom: 2px solid #C8922A;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      color: #C8922A;
+      letter-spacing: 1px;
+    }
+    .logo span { color: #F5E6C8; font-size: 14px; font-weight: 400; margin-left: 10px; }
+    .lang-switcher {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .lang-btn {
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid #C8922A;
+      background: transparent;
+      color: #C8922A;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-btn:hover, .lang-btn.active {
+      background: #C8922A;
+      color: #1A1209;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    h1 {
+      font-size: 32px;
+      color: #C8922A;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: #B89A6A;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #2D1F0A;
+      padding-bottom: 20px;
+    }
+    h2 {
+      font-size: 20px;
+      color: #C8922A;
+      margin: 36px 0 12px;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 16px;
+      color: #F5E6C8;
+      margin: 20px 0 8px;
+      font-weight: 600;
+    }
+    p { margin-bottom: 14px; color: #D4C4A0; }
+    strong { color: #F5E6C8; }
+    a { color: #C8922A; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+    }
+    th {
+      background: #2D1F0A;
+      color: #C8922A;
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #2D1F0A;
+      font-size: 14px;
+      color: #D4C4A0;
+    }
+    tr:last-child td { border-bottom: none; }
+    .highlight {
+      background: #231608;
+      border-left: 3px solid #C8922A;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+    }
+    ul {
+      list-style: none;
+      margin: 8px 0 16px;
+    }
+    ul li {
+      padding: 4px 0 4px 20px;
+      position: relative;
+      color: #D4C4A0;
+    }
+    ul li::before {
+      content: '›';
+      position: absolute;
+      left: 0;
+      color: #C8922A;
+      font-weight: 700;
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: #B89A6A;
+      font-size: 13px;
+      border-top: 1px solid #2D1F0A;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">📚 Librario <span>Privacy Policy</span></div>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('it')">🇮🇹 Italiano</button>
+    <button class="lang-btn" onclick="setLang('en')">🇬🇧 English</button>
+    <button class="lang-btn" onclick="setLang('fr')">🇫🇷 Français</button>
+    <button class="lang-btn" onclick="setLang('de')">🇩🇪 Deutsch</button>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- ===== ITALIANO ===== -->
+  <div class="lang-section active" id="lang-it">
+    <h1>Informativa sulla Privacy</h1>
+    <p class="subtitle">Ultimo aggiornamento: Marzo 2026 &nbsp;·&nbsp; Titolare: Roberto Pino &nbsp;·&nbsp; privacy@robxtech.com</p>
+
+    <h2>1. Introduzione</h2>
+    <p>Librario è un'app personale per catalogare libri. La presente informativa descrive come vengono gestiti i dati degli utenti in conformità al Regolamento UE 2016/679 (GDPR).</p>
+
+    <h2>2. Dati raccolti</h2>
+    <div class="highlight">
+      <strong>Librario non raccoglie né trasmette dati personali degli utenti.</strong><br>
+      Tutti i dati inseriti nell'app vengono salvati esclusivamente sul dispositivo dell'utente e non vengono mai inviati a server esterni.
+    </div>
+
+    <h2>3. Servizi di terze parti</h2>
+    <p>L'app utilizza i seguenti servizi esterni esclusivamente per la ricerca di informazioni sui libri:</p>
+
+    <h3>Google Books API</h3>
+    <ul>
+      <li>Fornitore: Google LLC</li>
+      <li>Utilizzo: ricerca libri per titolo o ISBN, recupero copertine, informazioni bibliografiche e prezzi</li>
+      <li>Dati inviati: titolo del libro o codice ISBN cercato dall'utente</li>
+      <li>Privacy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>Open Library API</h3>
+    <ul>
+      <li>Fornitore: Internet Archive</li>
+      <li>Utilizzo: ricerca libri come servizio alternativo a Google Books</li>
+      <li>Dati inviati: titolo del libro o codice ISBN cercato dall'utente</li>
+      <li>Privacy: <a href="https://archive.org/about/terms.php" target="_blank">archive.org/about/terms.php</a></li>
+    </ul>
+
+    <h3>WhatsApp</h3>
+    <ul>
+      <li>Utilizzo: invio di messaggi precompilati per solleciti prestiti e condivisione lista desideri tramite protocollo URL nativo</li>
+      <li>Nessuna API — nessun dato trasmesso a WhatsApp dall'app</li>
+    </ul>
+
+    <h2>4. Dati sul dispositivo</h2>
+    <p>I seguenti dati vengono salvati localmente sul dispositivo tramite SQLite e AsyncStorage:</p>
+    <ul>
+      <li>Catalogo libri</li>
+      <li>Gestione prestiti</li>
+      <li>Lista desideri</li>
+      <li>Mappa scaffali e posizioni libri</li>
+      <li>Preferenze app (tema, lingua)</li>
+    </ul>
+    <p>Questi dati non lasciano mai il dispositivo, salvo quando l'utente esporta volontariamente un file di backup JSON o CSV tramite la funzione Esporta dell'app.</p>
+
+    <h2>5. Permessi richiesti</h2>
+    <table>
+      <tr><th>Permesso</th><th>Utilizzo</th></tr>
+      <tr><td>📷 Fotocamera</td><td>Scanner ISBN e foto copertine libri</td></tr>
+      <tr><td>🔔 Notifiche</td><td>Avvisi scadenza prestiti</td></tr>
+    </table>
+    <p>I permessi vengono richiesti solo al momento del primo utilizzo e possono essere revocati nelle Impostazioni del dispositivo.</p>
+
+    <h2>6. Minori</h2>
+    <p>Librario non raccoglie consapevolmente dati da minori di 13 anni.</p>
+
+    <h2>7. GDPR — Diritti dell'utente</h2>
+    <p>In conformità al GDPR, l'utente ha diritto a:</p>
+    <ul>
+      <li><strong>Accesso</strong> — sapere quali dati sono memorizzati</li>
+      <li><strong>Rettifica</strong> — correggere i propri dati</li>
+      <li><strong>Cancellazione</strong> — eliminare i propri dati</li>
+      <li><strong>Portabilità</strong> — esportare i propri dati (funzione Backup JSON disponibile nell'app)</li>
+    </ul>
+    <p>Poiché tutti i dati sono sul dispositivo dell'utente, l'utente ha già il pieno controllo. Per qualsiasi richiesta: privacy@robxtech.com</p>
+
+    <h2>8. Modifiche alla Privacy Policy</h2>
+    <p>Eventuali modifiche verranno pubblicate su questa pagina con aggiornamento della data in cima al documento.</p>
+
+    <h2>9. Contatti</h2>
+    <p><strong>Roberto Pino</strong><br>
+    Email: privacy@robxtech.com<br>
+    Paese: Italia</p>
+  </div>
+
+  <!-- ===== ENGLISH ===== -->
+  <div class="lang-section" id="lang-en">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Last updated: March 2026 &nbsp;·&nbsp; Developer: Roberto Pino &nbsp;·&nbsp; privacy@robxtech.com</p>
+
+    <h2>1. Introduction</h2>
+    <p>Librario is a personal app for cataloging books. This policy describes how user data is handled in accordance with EU Regulation 2016/679 (GDPR).</p>
+
+    <h2>2. Data collected</h2>
+    <div class="highlight">
+      <strong>Librario does not collect or transmit any personal user data.</strong><br>
+      All data entered in the app is saved exclusively on the user's device and is never sent to external servers.
+    </div>
+
+    <h2>3. Third-party services</h2>
+    <p>The app uses the following external services solely for book information lookup:</p>
+
+    <h3>Google Books API</h3>
+    <ul>
+      <li>Provider: Google LLC</li>
+      <li>Use: book search by title or ISBN, cover images, bibliographic info and prices</li>
+      <li>Data sent: book title or ISBN searched by the user</li>
+      <li>Privacy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>Open Library API</h3>
+    <ul>
+      <li>Provider: Internet Archive</li>
+      <li>Use: book search as fallback to Google Books</li>
+      <li>Data sent: book title or ISBN searched by the user</li>
+      <li>Privacy: <a href="https://archive.org/about/terms.php" target="_blank">archive.org/about/terms.php</a></li>
+    </ul>
+
+    <h3>WhatsApp</h3>
+    <ul>
+      <li>Use: pre-filled messages for loan reminders and wishlist sharing via native URL protocol</li>
+      <li>No API — no data transmitted to WhatsApp by the app</li>
+    </ul>
+
+    <h2>4. On-device data</h2>
+    <p>The following data is stored locally on the device via SQLite and AsyncStorage:</p>
+    <ul>
+      <li>Book catalog</li>
+      <li>Loan management</li>
+      <li>Wishlist</li>
+      <li>Shelf map and book positions</li>
+      <li>App preferences (theme, language)</li>
+    </ul>
+    <p>This data never leaves the device, unless the user voluntarily exports a backup file (JSON or CSV) using the app's Export feature.</p>
+
+    <h2>5. Permissions requested</h2>
+    <table>
+      <tr><th>Permission</th><th>Use</th></tr>
+      <tr><td>📷 Camera</td><td>ISBN scanner and book cover photos</td></tr>
+      <tr><td>🔔 Notifications</td><td>Loan expiry reminders</td></tr>
+    </table>
+    <p>Permissions are requested only when the corresponding feature is first used and can be revoked at any time from device Settings.</p>
+
+    <h2>6. Children</h2>
+    <p>Librario does not knowingly collect data from children under 13.</p>
+
+    <h2>7. GDPR — User rights</h2>
+    <p>In accordance with GDPR, users have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> — know what data is stored</li>
+      <li><strong>Rectification</strong> — correct their data</li>
+      <li><strong>Erasure</strong> — delete their data</li>
+      <li><strong>Portability</strong> — export their data (JSON Backup feature available in the app)</li>
+    </ul>
+    <p>Since all data is on the user's device, users already have full control. For any request: privacy@robxtech.com</p>
+
+    <h2>8. Changes to this Privacy Policy</h2>
+    <p>Any changes will be published on this page with an updated date at the top of the document.</p>
+
+    <h2>9. Contact</h2>
+    <p><strong>Roberto Pino</strong><br>
+    Email: privacy@robxtech.com<br>
+    Country: Italy</p>
+  </div>
+
+  <!-- ===== FRANÇAIS ===== -->
+  <div class="lang-section" id="lang-fr">
+    <h1>Politique de Confidentialité</h1>
+    <p class="subtitle">Dernière mise à jour: Mars 2026 &nbsp;·&nbsp; Développeur: Roberto Pino &nbsp;·&nbsp; privacy@robxtech.com</p>
+
+    <h2>1. Introduction</h2>
+    <p>Librario est une application personnelle pour cataloguer livres. Cette politique décrit comment les données des utilisateurs sont gérées conformément au Règlement UE 2016/679 (RGPD).</p>
+
+    <h2>2. Données collectées</h2>
+    <div class="highlight">
+      <strong>Librario ne collecte ni ne transmet aucune donnée personnelle des utilisateurs.</strong><br>
+      Toutes les données saisies dans l'application sont sauvegardées exclusivement sur l'appareil de l'utilisateur et ne sont jamais envoyées à des serveurs externes.
+    </div>
+
+    <h2>3. Services tiers</h2>
+    <p>L'application utilise les services externes suivants uniquement pour la recherche d'informations sur les livres:</p>
+
+    <h3>Google Books API</h3>
+    <ul>
+      <li>Fournisseur: Google LLC</li>
+      <li>Utilisation: recherche de livres par titre ou ISBN, couvertures, informations bibliographiques et prix</li>
+      <li>Données envoyées: titre du livre ou ISBN recherché par l'utilisateur</li>
+      <li>Confidentialité: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>Open Library API</h3>
+    <ul>
+      <li>Fournisseur: Internet Archive</li>
+      <li>Utilisation: recherche de livres comme alternative à Google Books</li>
+      <li>Données envoyées: titre du livre ou ISBN recherché par l'utilisateur</li>
+      <li>Confidentialité: <a href="https://archive.org/about/terms.php" target="_blank">archive.org/about/terms.php</a></li>
+    </ul>
+
+    <h3>WhatsApp</h3>
+    <ul>
+      <li>Utilisation: messages pré-remplis pour rappels de prêts et partage de liste de souhaits via protocole URL natif</li>
+      <li>Aucune API — aucune donnée transmise à WhatsApp par l'application</li>
+    </ul>
+
+    <h2>4. Données sur l'appareil</h2>
+    <p>Les données suivantes sont sauvegardées localement sur l'appareil via SQLite et AsyncStorage:</p>
+    <ul>
+      <li>Catalogue de livres</li>
+      <li>Gestion des prêts</li>
+      <li>Liste de souhaits</li>
+      <li>Carte des étagères et positions des livres</li>
+      <li>Préférences de l'application (thème, langue)</li>
+    </ul>
+    <p>Ces données ne quittent jamais l'appareil, sauf si l'utilisateur exporte volontairement un fichier de sauvegarde JSON ou CSV.</p>
+
+    <h2>5. Autorisations demandées</h2>
+    <table>
+      <tr><th>Autorisation</th><th>Utilisation</th></tr>
+      <tr><td>📷 Caméra</td><td>Scanner ISBN et photos de couvertures</td></tr>
+      <tr><td>🔔 Notifications</td><td>Alertes d'expiration des prêts</td></tr>
+    </table>
+    <p>Les autorisations sont demandées uniquement lors de la première utilisation et peuvent être révoquées dans les Paramètres de l'appareil.</p>
+
+    <h2>6. Mineurs</h2>
+    <p>Librario ne collecte pas sciemment des données d'enfants de moins de 13 ans.</p>
+
+    <h2>7. RGPD — Droits de l'utilisateur</h2>
+    <p>Conformément au RGPD, l'utilisateur a le droit à:</p>
+    <ul>
+      <li><strong>Accès</strong> — savoir quelles données sont stockées</li>
+      <li><strong>Rectification</strong> — corriger ses données</li>
+      <li><strong>Effacement</strong> — supprimer ses données</li>
+      <li><strong>Portabilité</strong> — exporter ses données (fonction Sauvegarde JSON disponible)</li>
+    </ul>
+    <p>Pour toute demande: privacy@robxtech.com</p>
+
+    <h2>8. Modifications</h2>
+    <p>Tout changement sera publié sur cette page avec une date mise à jour.</p>
+
+    <h2>9. Contact</h2>
+    <p><strong>Roberto Pino</strong><br>
+    Email: privacy@robxtech.com<br>
+    Pays: Italie</p>
+  </div>
+
+  <!-- ===== DEUTSCH ===== -->
+  <div class="lang-section" id="lang-de">
+    <h1>Datenschutzerklärung</h1>
+    <p class="subtitle">Letzte Aktualisierung: März 2026 &nbsp;·&nbsp; Entwickler: Roberto Pino &nbsp;·&nbsp; privacy@robxtech.com</p>
+
+    <h2>1. Einleitung</h2>
+    <p>Librario ist eine persönliche App zum Katalogisieren von Büchern. Diese Richtlinie beschreibt, wie Benutzerdaten gemäß EU-Verordnung 2016/679 (DSGVO) verwaltet werden.</p>
+
+    <h2>2. Erhobene Daten</h2>
+    <div class="highlight">
+      <strong>Librario erhebt oder überträgt keine persönlichen Benutzerdaten.</strong><br>
+      Alle in der App eingegebenen Daten werden ausschließlich auf dem Gerät des Benutzers gespeichert und niemals an externe Server gesendet.
+    </div>
+
+    <h2>3. Drittanbieterdienste</h2>
+    <p>Die App verwendet folgende externe Dienste ausschließlich zur Buchsuche:</p>
+
+    <h3>Google Books API</h3>
+    <ul>
+      <li>Anbieter: Google LLC</li>
+      <li>Verwendung: Buchsuche nach Titel oder ISBN, Cover, bibliografische Informationen und Preise</li>
+      <li>Gesendete Daten: Buchtitel oder ISBN des Benutzers</li>
+      <li>Datenschutz: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>Open Library API</h3>
+    <ul>
+      <li>Anbieter: Internet Archive</li>
+      <li>Verwendung: Buchsuche als Alternative zu Google Books</li>
+      <li>Gesendete Daten: Buchtitel oder ISBN des Benutzers</li>
+      <li>Datenschutz: <a href="https://archive.org/about/terms.php" target="_blank">archive.org/about/terms.php</a></li>
+    </ul>
+
+    <h3>WhatsApp</h3>
+    <ul>
+      <li>Verwendung: Vorgefertigte Nachrichten für Ausleih-Erinnerungen über natives URL-Protokoll</li>
+      <li>Keine API — keine Daten werden von der App an WhatsApp übertragen</li>
+    </ul>
+
+    <h2>4. Daten auf dem Gerät</h2>
+    <p>Folgende Daten werden lokal auf dem Gerät gespeichert:</p>
+    <ul>
+      <li>Bücher-Katalog</li>
+      <li>Ausleihverwaltung</li>
+      <li>Wunschliste</li>
+      <li>Regalplan und Buchpositionen</li>
+      <li>App-Einstellungen (Theme, Sprache)</li>
+    </ul>
+    <p>Diese Daten verlassen niemals das Gerät, es sei denn, der Benutzer exportiert eine Sicherungsdatei (JSON oder CSV).</p>
+
+    <h2>5. Angeforderte Berechtigungen</h2>
+    <table>
+      <tr><th>Berechtigung</th><th>Verwendung</th></tr>
+      <tr><td>📷 Kamera</td><td>ISBN-Scanner und Buchcover-Fotos</td></tr>
+      <tr><td>🔔 Benachrichtigungen</td><td>Erinnerungen bei Ablauf von Ausleihen</td></tr>
+    </table>
+    <p>Berechtigungen werden nur bei der ersten Verwendung angefordert und können jederzeit in den Geräteeinstellungen widerrufen werden.</p>
+
+    <h2>6. Minderjährige</h2>
+    <p>Librario erhebt wissentlich keine Daten von Ki
+    <h2>7. DSGVO — Rechte des Benutzers</h2>
+    <p>Gemäß DSGVO hat der Benutzer das Recht auf:</p>
+    <ul>
+      <li><strong>Auskunft</strong> — zu wissen, welche Daten gespeichert sind</li>
+      <li><strong>Berichtigung</strong> — seine Daten zu korrigieren</li>
+      <li><strong>Löschung</strong> — seine Daten zu löschen</li>
+      <li><strong>Datenübertragbarkeit</strong> — seine Daten zu exportieren (JSON-Backup in der App)</li>
+    </ul>
+    <p>Für alle Anfragen: privacy@robxtech.com</p>
+
+    <h2>8. Änderungen</h2>
+    <p>Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht.</p>
+
+    <h2>9. Kontakt</h2>
+    <p><strong>Roberto Pino</strong><br>
+    Email: privacy@robxtech.com<br>
+    Land: Italien</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Librario · Roberto Pino · privacy@robxtech.com
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/script/email-protection"></script>
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(function(s) {
+      s.classList.remove('active');
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(b) {
+      b.classList.remove('active');
+    });
+    document.getElementById('lang-' + lang).classList.add('active');
+    var btns = document.querySelectorAll('.lang-btn');
+    for (var i = 0; i < btns.length; i++) {
+      if (btns[i].getAttribute('onclick') === "setLang('" + lang + "')") {
+        btns[i].classList.add('active');
+      }
+    }
+  }
+</script>
+</body>
+</html>
